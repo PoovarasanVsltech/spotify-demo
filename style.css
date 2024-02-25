@@ -19,6 +19,7 @@ body {
 
 #beingtxt {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -48,4 +49,18 @@ body {
 .beingtxt1 {
     font-size: 90px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .beingtxt1 {
+        font-size: 32px;
+    }
+
+    .student {
+        font-size: 45px;
+    }
+
+    #Studentsbtn {
+        font-size: 15px;
+    }
 }
