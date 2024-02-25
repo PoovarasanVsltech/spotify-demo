@@ -21,10 +21,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    height: 90vh;
-    font-weight: 400;
+    height: 100vh;
+    font-weight: 450;
     padding: 10px;
+
 
 }
 
@@ -80,28 +82,32 @@ body {
     }
 
     #beingtxt {
-        margin-top: -300px;
-        margin-bottom: -250px;
-        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+
+        /* margin-top: -300px; */
+        margin-bottom: -280px;
+        height: 70vh;
+        padding: 15px;
     }
 
     #desc {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        flex-wrap: nowrap;
         align-items: start !important;
         margin: 0%;
-        padding: 15px;
-
+        margin: 20px;
     }
 
     .descheading {
-        font-size: 35px;
+        font-size: 32px;
         text-align: start;
     }
 
     .descpara {
-        font-size: 12px;
+        font-size: 10px;
         text-align: start;
     }
 
