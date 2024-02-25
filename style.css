@@ -22,8 +22,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     font-weight: 400;
+}
+
+.beingtxt1 {
+    font-size: 90px;
+    text-align: center;
 }
 
 #beingtxt2 {
@@ -46,10 +51,7 @@ body {
     align-items: center;
 }
 
-.beingtxt1 {
-    font-size: 90px;
-    text-align: center;
-}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -63,7 +65,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 90vh;
         flex-direction: column;
     }
 
